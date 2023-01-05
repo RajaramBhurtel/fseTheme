@@ -1,13 +1,5 @@
 {
   "version": 2,
-  "settings": {
-    "appearanceTools": true,
-    "layout": {
-      "contentSize": "840px",
-      "wideSize": "1100px"
-    },
-    "typography": {}
-  },
   "templateParts": [
     {
       "name": "header",
@@ -24,5 +16,240 @@
       "area": "banner",
       "title": "Banner"
     }
-  ]
+  ],
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "duotone": [
+        {
+          "colors": ["#000000", "#ffffff"],
+          "slug": "foreground-and-background",
+          "name": "Foreground and background"
+        },
+        {
+          "colors": ["#000000", "#ffe2c7"],
+          "slug": "foreground-and-secondary",
+          "name": "Foreground and secondary"
+        },
+        {
+          "colors": ["#000000", "#f6f6f6"],
+          "slug": "foreground-and-tertiary",
+          "name": "Foreground and tertiary"
+        },
+        {
+          "colors": ["#32535C", "#ffffff"],
+          "slug": "primary-and-background",
+          "name": "Primary and background"
+        },
+        {
+          "colors": ["#32535C", "#ffe2c7"],
+          "slug": "primary-and-secondary",
+          "name": "Primary and secondary"
+        },
+        {
+          "colors": ["#32535C", "#f6f6f6"],
+          "slug": "primary-and-tertiary",
+          "name": "Primary and tertiary"
+        }
+      ],
+      "palette": [
+        {
+          "color": "#000",
+          "name": "Foreground",
+          "slug": "foreground"
+        },
+        {
+          "color": "#fff",
+          "name": "Background",
+          "slug": "background"
+        },
+        {
+          "color": "#F2525A",
+          "name": "Primary",
+          "slug": "primary"
+        },
+        {
+          "color": "#0E9A9A",
+          "name": "Secondary",
+          "slug": "secondary"
+        },
+        {
+          "color": "#fcf5f5",
+          "name": "Secondary Background",
+          "slug": "background-secondary"
+        },
+        {
+          "color": "#707376",
+          "name": "Body Text",
+          "slug": "body-text"
+        },
+        {
+          "color": "#222",
+          "name": "Text Link",
+          "slug": "text-link"
+        },
+        {
+          "color": "#777777",
+          "name": "Border",
+          "slug": "border"
+        },
+        {
+          "color": "#999999",
+          "name": "Tertiary",
+          "slug": "tertiary"
+        },
+        {
+          "color": "#eeeeee",
+          "name": "Input Field",
+          "slug": "input-field"
+        },
+        {
+          "color": "#777",
+          "name": "Boulder",
+          "slug": "boulder"
+        },
+        {
+          "color": "#7d6043",
+          "name": "coffee",
+          "slug": "coffee"
+        },
+        {
+          "color": "#25d6a2",
+          "name": "Cyan",
+          "slug": "cyan"
+        },
+        {
+          "color": "#0b1b43",
+          "name": "Dark Blue",
+          "slug": "dark-blue"
+        },
+        {
+          "color": "#30b4da",
+          "name": "Sky Blue",
+          "slug": "sky-blue"
+        },
+        {
+          "color": "#0fb36c",
+          "name": "Dark Green",
+          "slug": "dark-green"
+        },
+        {
+          "color": "#6ba518",
+          "name": "Lite Green",
+          "slug": "lite-green"
+        },
+        {
+          "color": "#c74a73",
+          "name": "Purple",
+          "slug": "purple"
+        },
+        {
+          "color": "#9261c6",
+          "name": "Dark Purple",
+          "slug": "dark-purple"
+        },
+        {
+          "color": "#f78550",
+          "name": "Orange",
+          "slug": "orange"
+        },
+        {
+          "color": "#f9556d",
+          "name": "Lite Red",
+          "slug": "lite-red"
+        },
+        {
+          "color": "#27808c",
+          "name": "Hexadecimal",
+          "slug": "hexadecimal"
+        },
+        {
+          "color": "#ff6b98",
+          "name": "Pink",
+          "slug": "pink"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "840px",
+      "wideSize": "1100px"
+    },
+    "typography": {
+      "dropCap": false,
+      "fontFamilies": [
+        {
+          "fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
+          "name": "System Font",
+          "slug": "system"
+        },
+        {
+          "fontFamily": "'Poppins', sans-serif",
+          "name": "Poppins Sans Serif",
+          "slug": "poppins"
+        },
+        {
+          "fontFamily": "'Kumbh Sans', sans-serif",
+          "name": "Kumbh Sans Sans Serif",
+          "slug": "Kumbh Sans"
+        },
+        {
+          "fontFamily": "'Heebo', sans-serif",
+          "name": "Heebo Sans Serif",
+          "slug": "heebo"
+        }
+      ],
+      "fontSizes": [
+        {
+          "slug": "tiny",
+          "size": "14px",
+          "name": "Tiny"
+        },
+        {
+          "slug": "extra-small",
+          "size": "15px",
+          "name": "Extra Small"
+        },
+        {
+          "name": "Small",
+          "size": "16px",
+          "slug": "small"
+        },
+        {
+          "name": "Normal",
+          "size": "17px",
+          "slug": "normal"
+        },
+        {
+          "name": "Medium",
+          "size": "18px",
+          "slug": "medium"
+        },
+        {
+          "name": "Big",
+          "size": "clamp(1.125rem, 1.0263rem + 0.3947vw, 1.5rem)",
+          "slug": "big"
+        },
+        {
+          "name": "Large",
+          "size": "clamp(1.375rem, 1.2434rem + 0.5263vw, 1.875rem)",
+          "slug": "large"
+        },
+        {
+          "name": "Extra Large",
+          "size": "clamp(1.5rem, 1.2368rem + 1.0526vw, 2.5rem)",
+          "slug": "extra-large"
+        },
+        {
+          "name": "Huge",
+          "size": "clamp(2rem, 1.5rem + 2vw, 2.75rem)",
+          "slug": "huge"
+        },
+        {
+          "name": "Extra Huge",
+          "size": "clamp(3rem, 6vw, 4.5rem)",
+          "slug": "extra-huge"
+        }
+      ]
+    }
+  }
 }
