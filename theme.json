@@ -1,13 +1,28 @@
 {
-	"version": 2,
-	"settings": {
-		"appearanceTools": true,
-		"layout": {
-			"contentSize": "840px",
-			"wideSize": "1100px"
-		},
-		"typography":{
-			
-		}
-	}
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "layout": {
+      "contentSize": "840px",
+      "wideSize": "1100px"
+    },
+    "typography": {}
+  },
+  "templateParts": [
+    {
+      "name": "header",
+      "area": "header",
+      "title": "Header"
+    },
+    {
+      "name": "footer",
+      "area": "footer",
+      "title": "Footer"
+    },
+    {
+      "name": "banner",
+      "area": "banner",
+      "title": "Banner"
+    }
+  ]
 }
