@@ -13,3 +13,14 @@ Text Domain: evit-fse-v1
 
 */
 
+.has-drop-cap:not(:focus)::first-letter {
+    font-family: var(--wp--custom--drop-cap--typography--font-family, "'Kumbh Sans', sans-serif");
+    font-size: var(--wp--custom--drop-cap--typography--font-size, 3.5em);
+    font-weight: var(--wp--custom--drop-cap--typography--font-weight, 450);
+    font-style: var(--wp--custom--drop-cap--typography--font-style, normal);
+    /* line-height: var(--wp--custom--drop-cap--typography--line-height, .85); */
+    margin: var(--wp--custom--drop-cap--spacing--margin, 0.05em 0.1em 0 0);
+    padding: var(--wp--custom--drop-cap--spacing--paddig, 0);
+    color: black;
+}
+

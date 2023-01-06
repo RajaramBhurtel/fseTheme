@@ -175,7 +175,7 @@
       "wideSize": "1100px"
     },
     "typography": {
-      "dropCap": false,
+      "dropCap": true,
       "fontFamilies": [
         {
           "fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
@@ -250,6 +250,11 @@
           "slug": "extra-huge"
         }
       ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--kumbh-sans)"
     }
   }
 }
