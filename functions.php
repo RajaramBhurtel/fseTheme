@@ -1,16 +1,27 @@
 <?php
+if ( ! function_exists( 'evit_fse_theme_support' ) ) :
 
-if ( ! function_exists( 'fsetheme_support' ) ) :
-	function fsetheme_support()  {
+    /**
+     * Sets up theme defaults and registers support for various WordPress features.
+     *
+     * @since My theme name 1.0
+     *
+     * @return void
+     */
+    function evit_fse_theme_support() {
 
-		// Adding support for core block visual styles.
-		add_theme_support( 'wp-block-styles' );
+        // Add support for block styles.
+        add_theme_support( 'wp-block-styles' );
 
-		// Enqueue editor styles.
-		add_editor_style( 'style.css' );
-	}
-	add_action( 'after_setup_theme', 'fsetheme_support' );
+        // Enqueue editor styles.
+        add_editor_style( 'style.css' );
+
+        register_nav_menus( array( 'primary' => esc_html__( 'Primary Menu', 'evit-fse' ) ) );
+
+    }
+
 endif;
+add_action( 'after_setup_theme', 'evit_fse_theme_support' );
 
 /**
  * Enqueue scripts and styles.
@@ -60,3 +71,8 @@ if ( ! function_exists( 'evit_fse_fonts_url' ) ) :
 		return esc_url( wptt_get_webfont_url( $fonts_url ) );
 	}
 endif;
+
+/**
+ * Load core file.
+ */
+require_once get_template_directory() . '/inc/pattern-category.php';
