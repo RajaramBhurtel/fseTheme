@@ -39,7 +39,7 @@
 <!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20","left":"0"},"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
 <div class="wp-block-columns are-vertically-aligned-center" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"verticalAlignment":"center","width":"20%","style":{"spacing":{"blockGap":"0"}}} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:20%"><!-- wp:image {"align":"left","id":457,"width":94,"height":94,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"56px"}}} -->
-<figure class="wp-block-image alignleft size-full is-resized has-custom-border"><img src="http://localhost/wordpresst/wp-content/uploads/2023/01/alright-img-32.webp" alt="" class="wp-image-457" style="border-radius:56px" width="94" height="94"/></figure>
+<figure class="wp-block-image alignleft size-full is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/images/ceo.png" alt="" class="wp-image-457" style="border-radius:56px" width="94" height="94"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
