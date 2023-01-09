@@ -5,8 +5,9 @@
   * Categories: featured
   */
 ?>
-<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"0","left":"0"},"padding":{"top":"0px","right":"100px","bottom":"50px","left":"100px"}}}} -->
-<div class="wp-block-columns" style="padding-top:0px;padding-right:100px;padding-bottom:50px;padding-left:100px"><!-- wp:column -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"constrained","justifyContent":"center","contentSize":"68%"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"0","left":"0"},"padding":{"top":"0px","right":"0px","bottom":"0px","left":"0px"},"margin":{"top":"0","bottom":"0"}},"border":{"width":"0px","style":"none","radius":"0px"}}} -->
+<div class="wp-block-columns" style="border-style:none;border-width:0px;border-radius:0px;margin-top:0;margin-bottom:0;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() );?>/assets/images/gallary1.jpg","id":502,"dimRatio":20,"overlayColor":"dark-blue","focalPoint":{"x":0.54,"y":0.55},"minHeight":405,"minHeightUnit":"px","contentPosition":"bottom center","isDark":false} -->
 <div class="wp-block-cover is-light has-custom-content-position is-position-bottom-center" style="min-height:405px"><span aria-hidden="true" class="wp-block-cover__background has-dark-blue-background-color has-background-dim-20 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-502" alt="" src="<?php echo esc_url( get_template_directory_uri() );?>/assets/images/gallary1.jpg" style="object-position:54% 55%" data-object-fit="cover" data-object-position="54% 55%"/><div class="wp-block-cover__inner-container"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
@@ -59,4 +60,5 @@
 <!-- /wp:columns --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:column --></div>
-<!-- /wp:columns -->
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
