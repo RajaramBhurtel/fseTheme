@@ -9,25 +9,25 @@
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:0;padding-bottom:var(--wp--preset--spacing--80);padding-left:0"><!-- wp:columns {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 <div class="wp-block-columns" style="margin-top:0;margin-bottom:0"><!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","right":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|20"}}},"layout":{"type":"constrained","contentSize":"100%"}} -->
 <div class="wp-block-column" style="padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--20)"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"left"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"vivid-red","fontSize":"normal","fontFamily":"Kumbh Sans"} -->
-<p class="has-vivid-red-color has-text-color has-kumbh-sans-font-family has-normal-font-size" style="font-style:normal;font-weight:600">OUR TEAM</p>
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontSize":"12px"}},"textColor":"vivid-red","fontFamily":"Kumbh Sans"} -->
+<p class="has-vivid-red-color has-text-color has-kumbh-sans-font-family" style="font-size:12px"><strong>OUR TEAM</strong></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"style":{"typography":{"fontSize":"55px","fontStyle":"normal","fontWeight":"700"}}} -->
-<h2 style="font-size:55px;font-style:normal;font-weight:700">Meet our team</h2>
+<!-- wp:heading {"style":{"typography":{"fontSize":"50px","fontStyle":"normal","fontWeight":"700"}}} -->
+<h2 style="font-size:50px;font-style:normal;font-weight:700">Meet our team</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"style":{"typography":{"lineHeight":1.6}},"textColor":"body-text"} -->
-<p class="has-body-text-color has-text-color" style="line-height:1.6">Introducing our team of talented and skilled professionals who are ready to increase your productivity and bring your business to the new level of efficiency and sustainability.</p>
+<!-- wp:paragraph {"style":{"typography":{"lineHeight":1.6}},"textColor":"body-text","fontSize":"normal"} -->
+<p class="has-body-text-color has-text-color has-normal-font-size" style="line-height:1.6">Introducing our team of talented and skilled professionals who are ready to increase your productivity and bring your business to the new level of efficiency and sustainability.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"vivid-red","style":{"border":{"radius":"0px"}},"className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-vivid-red-background-color has-background wp-element-button" style="border-radius:0px">Our Team</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"vivid-red","style":{"border":{"radius":"0px"}},"className":"is-style-fill","fontSize":"normal"} -->
+<div class="wp-block-button has-custom-font-size is-style-fill has-normal-font-size"><a class="wp-block-button__link has-vivid-red-background-color has-background wp-element-button" href="#" style="border-radius:0px"><strong>Our Team</strong></a></div>
 <!-- /wp:button -->
 
-<!-- wp:button {"backgroundColor":"background","textColor":"foreground","style":{"border":{"radius":"0px"}},"className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-foreground-color has-background-background-color has-text-color has-background wp-element-button" style="border-radius:0px"><strong>Video Presentation</strong></a></div>
+<!-- wp:button {"backgroundColor":"background","textColor":"foreground","style":{"border":{"radius":"0px"}},"className":"is-style-fill","fontSize":"normal"} -->
+<div class="wp-block-button has-custom-font-size is-style-fill has-normal-font-size"><a class="wp-block-button__link has-foreground-color has-background-background-color has-text-color has-background wp-element-button" href="#" style="border-radius:0px"><strong>Video Presentation</strong></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

@@ -13,8 +13,8 @@
 <p class="has-text-color has-kumbh-sans-font-family" style="color:#d90a2c;font-size:12px;letter-spacing:2px;line-height:1.5;text-decoration:none;text-transform:uppercase"><strong>WHAT WE DO</strong></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"style":{"typography":{"fontSize":"35px","fontStyle":"normal","fontWeight":"800"}},"fontFamily":"Kumbh Sans"} -->
-<h2 class="has-kumbh-sans-font-family" style="font-size:35px;font-style:normal;font-weight:800"><strong>The best solutions for your business</strong></h2>
+<!-- wp:heading {"style":{"typography":{"fontSize":"50px","fontStyle":"normal","fontWeight":"700"}},"fontFamily":"Kumbh Sans"} -->
+<h2 class="has-kumbh-sans-font-family" style="font-size:50px;font-style:normal;font-weight:700"><strong>The best solutions for your business</strong></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -44,9 +44,9 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"66.66%","style":{"spacing":{"blockGap":"4px"}}} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:66.66%"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"big","fontFamily":"poppins"} -->
-<p class="has-poppins-font-family has-big-font-size" style="font-style:normal;font-weight:700">Rojer Moore</p>
-<!-- /wp:paragraph -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:66.66%"><!-- wp:heading {"level":5,"style":{"typography":{"fontSize":"24px"}}} -->
+<h5 style="font-size:24px">Rojer Moore</h5>
+<!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"foreground","fontSize":"normal","fontFamily":"Kumbh Sans"} -->
 <p class="has-foreground-color has-text-color has-kumbh-sans-font-family has-normal-font-size" style="font-style:normal;font-weight:500">CEO Director</p>

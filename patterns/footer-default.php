@@ -5,18 +5,17 @@
   * Categories: evit-fse
   */
 ?>
-<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|80","right":"0","bottom":"var:preset|spacing|60","left":"0"},"blockGap":"var:preset|spacing|50"},"color":{"background":"#1d1d1f"}},"layout":{"type":"constrained","contentSize":"87%"}} -->
-<div class="wp-block-group has-background" style="background-color:#1d1d1f;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:0;padding-bottom:var(--wp--preset--spacing--60);padding-left:0"><!-- wp:heading {"level":5,"align":"wide","style":{"typography":{"fontStyle":"normal","fontWeight":"700","fontSize":"45px"}},"textColor":"background","fontFamily":"Kumbh Sans"} -->
-<h5 class="alignwide has-background-color has-text-color has-kumbh-sans-font-family" style="font-size:45px;font-style:normal;font-weight:700"><strong>We protect &amp; support<br>your
-            business</strong></h5>
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|80","right":"0","bottom":"var:preset|spacing|60","left":"0"},"blockGap":"var:preset|spacing|50"},"color":{"background":"#1d1d1f"}},"layout":{"type":"constrained","contentSize":"87%"}} -->
+<div class="wp-block-group has-background" style="background-color:#1d1d1f;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:0;padding-bottom:var(--wp--preset--spacing--60);padding-left:0"><!-- wp:heading {"align":"wide","style":{"typography":{"fontStyle":"normal","fontWeight":"700","fontSize":"50px"}},"textColor":"background","fontFamily":"Kumbh Sans"} -->
+<h2 class="alignwide has-background-color has-text-color has-kumbh-sans-font-family" style="font-size:50px;font-style:normal;font-weight:700"><strong>We protect &amp; support<br>your
+            business</strong></h2>
 <!-- /wp:heading -->
 
-<!-- wp:columns {"verticalAlignment":"bottom","align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","right":"var:preset|spacing|20","bottom":"var:preset|spacing|50","left":"var:preset|spacing|20"}},"color":{"background":"#1d1d1f"}}} -->
-<div class="wp-block-columns alignwide are-vertically-aligned-bottom has-background" style="background-color:#1d1d1f;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--20)"><!-- wp:column {"verticalAlignment":"bottom","style":{"spacing":{"blockGap":"var:preset|spacing|30"}}} -->
-<div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"22px"}},"textColor":"white"} -->
-<h3 class="has-white-color has-text-color" style="font-size:22px"><strong>Address</strong></h3>
+<!-- wp:columns {"verticalAlignment":null,"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","right":"var:preset|spacing|20","bottom":"var:preset|spacing|50","left":"var:preset|spacing|20"}},"color":{"background":"#1d1d1f"}}} -->
+<div class="wp-block-columns alignwide has-background" style="background-color:#1d1d1f;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--20)"><!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"blockGap":"var:preset|spacing|30"}}} -->
+<div class="wp-block-column is-vertically-aligned-top"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading {"level":3,"textColor":"white","fontSize":"big"} -->
+<h3 class="has-white-color has-text-color has-big-font-size"><strong>Address</strong></h3>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -30,10 +29,10 @@
 <!-- /wp:columns --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"bottom","style":{"spacing":{"blockGap":"var:preset|spacing|30"}}} -->
-<div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"22px"}},"textColor":"white"} -->
-<h3 class="has-white-color has-text-color" style="font-size:22px"><strong>Say Hello</strong></h3>
+<!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"blockGap":"var:preset|spacing|30"}}} -->
+<div class="wp-block-column is-vertically-aligned-top"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading {"level":3,"textColor":"white","fontSize":"big"} -->
+<h3 class="has-white-color has-text-color has-big-font-size"><strong>Say Hello</strong></h3>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -50,9 +49,9 @@
 <!-- /wp:columns --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"bottom","style":{"spacing":{"blockGap":"0","padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
-<div class="wp-block-column is-vertically-aligned-bottom" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"22px"}},"textColor":"white"} -->
-<h3 class="has-white-color has-text-color" style="font-size:22px">Useful Link</h3>
+<!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"blockGap":"0","padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
+<div class="wp-block-column is-vertically-aligned-top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:heading {"level":3,"textColor":"white","fontSize":"big"} -->
+<h3 class="has-white-color has-text-color has-big-font-size">Useful Link</h3>
 <!-- /wp:heading -->
 
 <!-- wp:columns {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"margin":{"top":"var:preset|spacing|30","bottom":"0"}}}} -->
@@ -76,10 +75,10 @@
 <!-- /wp:columns --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"bottom"} -->
-<div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"22px"}},"textColor":"white"} -->
-<h3 class="has-white-color has-text-color" style="font-size:22px"><strong>Newsletter</strong></h3>
+<!-- wp:column {"verticalAlignment":"top"} -->
+<div class="wp-block-column is-vertically-aligned-top"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading {"level":3,"textColor":"white","fontSize":"big"} -->
+<h3 class="has-white-color has-text-color has-big-font-size"><strong>Newsletter</strong></h3>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -112,7 +111,6 @@
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
 
-<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"0","right":"0","bottom":"0","left":"0"}}},"backgroundColor":"foreground","textColor":"background"} -->
-<p class="has-text-align-center has-background-color has-foreground-background-color has-text-color has-background" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0">Evit FSE Theme © 2023. All Rights Reserved.</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group -->
+<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"0","right":"0","bottom":"0","left":"0"}}},"backgroundColor":"foreground","textColor":"background","fontSize":"extra-small"} -->
+<p class="has-text-align-center has-background-color has-foreground-background-color has-text-color has-background has-extra-small-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><em>Evit FSE Theme © 2023. All Rights Reserved.</em></p>
+<!-- /wp:paragraph -->
