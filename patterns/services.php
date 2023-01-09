@@ -5,7 +5,7 @@
   * Categories: columns
   */
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"70px","right":"0px","bottom":"100px","left":"0px"},"blockGap":"0","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"68%"}} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"70px","right":"0px","bottom":"100px","left":"0px"},"blockGap":"0","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"87%"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:70px;padding-right:0px;padding-bottom:100px;padding-left:0px"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"50%","layout":{"type":"default"}} -->
 <div class="wp-block-column" style="flex-basis:50%"><!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical","flexWrap":"nowrap","justifyContent":"left"}} -->
