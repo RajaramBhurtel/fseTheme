@@ -4,8 +4,10 @@
   * Slug: evit-fse/latest-posts
   * Categories: evit-fse
   */
-?><!-- wp:group {"style":{"color":{"background":"#f9f9f9"},"spacing":{"blockGap":"var:preset|spacing|40","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-<div class="wp-block-group has-background" style="background-color:#f9f9f9;margin-top:0;margin-bottom:0"><!-- wp:paragraph {"style":{"typography":{"fontSize":"12px"}},"textColor":"vivid-red"} -->
+?>
+<!-- wp:group {"style":{"color":{"background":"#f9f9f9"},"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"87%"}} -->
+<div class="wp-block-group has-background" style="background-color:#f9f9f9;margin-top:0;margin-bottom:0"><!-- wp:group {"style":{"color":{"background":"#f9f9f9"},"spacing":{"blockGap":"var:preset|spacing|60","margin":{"top":"0","bottom":"0"},"padding":{"bottom":"var:preset|spacing|70"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<div class="wp-block-group has-background" style="background-color:#f9f9f9;margin-top:0;margin-bottom:0;padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:paragraph {"style":{"typography":{"fontSize":"12px"}},"textColor":"vivid-red"} -->
 <p class="has-vivid-red-color has-text-color" style="font-size:12px"><strong>RECENT ARTICLES</strong></p>
 <!-- /wp:paragraph -->
 
@@ -50,4 +52,5 @@
 <div class="wp-block-button is-style-fill" style="font-style:normal;font-weight:600"><a class="wp-block-button__link has-background-color has-text-color has-background wp-element-button" href="#" style="border-radius:0px;background-color:#154ae8">More Posts</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
