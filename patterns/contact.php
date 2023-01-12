@@ -5,8 +5,8 @@
   * Categories: evit-fse
   */
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"var:preset|spacing|50","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:heading {"textAlign":"center","level":1,"align":"full","style":{"typography":{"fontStyle":"normal","fontWeight":"800","fontSize":"50px"}},"textColor":"foreground"} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"var:preset|spacing|50","margin":{"top":"var:preset|spacing|80","bottom":"0"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:heading {"textAlign":"center","level":1,"align":"full","style":{"typography":{"fontStyle":"normal","fontWeight":"800","fontSize":"50px"}},"textColor":"foreground"} -->
 <h1 class="alignfull has-text-align-center has-foreground-color has-text-color" style="font-size:50px;font-style:normal;font-weight:800">Contact</h1>
 <!-- /wp:heading -->
 
@@ -14,7 +14,7 @@
 <figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/images/down-arrow.png" alt="" class="wp-image-650" width="40" height="52"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:html --> 
+<!-- wp:html -->
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.019954751195!2d85.3192630761938!3d27.685778126441143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19cdd0c2c6d1%3A0x5b2341291ef62a3a!2sEagle%20Vision%20It%20Pvt.%20Ltd.!5e0!3m2!1sen!2snp!4v1673502505937!5m2!1sen!2snp" width="100%" height="450" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 <!-- /wp:html -->
 
