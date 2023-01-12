@@ -27,3 +27,7 @@ Text Domain: evit-fse
     color: black;
 }
 
+a{
+    text-decoration: none;
+}
+
