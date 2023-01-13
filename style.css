@@ -45,3 +45,19 @@ a{
 .evit-featured-img img{
     max-height: 700px;
 }
+.evit-service-textbox{
+    position: relative;
+    top: 100px;
+    left: -150px;
+    padding: 12px;
+    /* margin: 25px; */
+}
+
+.evit-service-textbox blockquote > p {
+    font-size: 25px;
+}
+
+.evit-service-textbox blockquote> cite {
+    font-size: 12px;
+    top: -15px;
+}
