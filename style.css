@@ -46,7 +46,7 @@ a{
 } */
 
 .evit-featured-img img{
-    max-height: 700px;
+    max-height: 600px;
 }
 .evit-service-textbox{
     position: relative;
@@ -119,4 +119,33 @@ hr {
 
 }
 
+.evit-cover{
+   position: relative;
+width: 100%;
+    /* border: 7px solid #000; */
+
+}
+
+/* Tablets and up */
+@media (min-width: 768px) {
+    .evit-cover{
+        width: 850px;
+        /* 7px border will be inherited from extrasmall devices... etc */
+    }
+}
+/* Desktop and up */
+@media (min-width: 992px) {
+    .evit-cover {
+        width: 992px;
+        /* Will be 150px width. Need styles?  */
+    }
+}
+
+/* Large desktops */
+@media (min-width: 1200px) {
+    .evit-cover{
+        width: 1200px;
+        /* Will be 150px width. Need styles?  */
+    }
+}
 
