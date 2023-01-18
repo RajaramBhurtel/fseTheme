@@ -1,8 +1,8 @@
 <?php
  /**
   * Title: Hero
-  * Slug: featured/hero
-  * Categories: featured
+  * Slug: evit-fse/hero
+  * Categories: evit-fse
   */
 ?>
 <!-- wp:columns {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
@@ -21,14 +21,12 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"textAlign":"center","level":1,"align":"full","style":{"typography":{"fontStyle":"normal","fontWeight":"700","lineHeight":"0.9","fontSize":"90px"}},"textColor":"white"} -->
-<h1 class="alignfull has-text-align-center has-white-color has-text-color" style="font-size:90px;font-style:normal;font-weight:700;line-height:0.9">We craft
-                                    unique<br>business ideas</h1>
+<h1 class="alignfull has-text-align-center has-white-color has-text-color" style="font-size:90px;font-style:normal;font-weight:700;line-height:0.9">We craft unique<br>business ideas</h1>
 <!-- /wp:heading -->
 
 <!-- wp:buttons {"align":"wide","layout":{"type":"flex","justifyContent":"center"}} -->
-<div class="wp-block-buttons alignwide"><!-- wp:button {"textColor":"white","style":{"border":{"radius":"0px"},"color":{"background":"#2f48e5"},"typography":{"fontStyle":"normal","fontWeight":"700","letterSpacing":"1px","textDecoration":"none"},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}}},"className":"is-style-fill","fontSize":"small"} -->
-<div class="wp-block-button has-custom-font-size is-style-fill has-small-font-size" style="font-style:normal;font-weight:700;letter-spacing:1px;text-decoration:none"><a class="wp-block-button__link has-white-color has-text-color has-background wp-element-button" href="#" style="border-radius:0px;background-color:#2f48e5;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--60)">About
-                                            Us</a></div>
+<div class="wp-block-buttons alignwide"><!-- wp:button {"backgroundColor":"primary","textColor":"white","style":{"border":{"radius":"0px"},"typography":{"fontStyle":"normal","fontWeight":"700","letterSpacing":"1px","textDecoration":"none"},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}}},"className":"is-style-fill","fontSize":"small"} -->
+<div class="wp-block-button has-custom-font-size is-style-fill has-small-font-size" style="font-style:normal;font-weight:700;letter-spacing:1px;text-decoration:none"><a class="wp-block-button__link has-white-color has-primary-background-color has-text-color has-background wp-element-button" href="http://localhost/wordpresst/about/" style="border-radius:0px;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--60)">About Us</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
