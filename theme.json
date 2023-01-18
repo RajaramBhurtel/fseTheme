@@ -64,7 +64,7 @@
           "slug": "background"
         },
         {
-          "color": "#F2525A",
+          "color": "#D90A2C",
           "name": "Primary",
           "slug": "primary"
         },
@@ -167,6 +167,11 @@
           "color": "#ff6b98",
           "name": "Pink",
           "slug": "pink"
+        },
+        {
+          "color": "##dfdfdf",
+          "name": "Line",
+          "slug": "line"
         }
       ]
     },
