@@ -124,6 +124,21 @@ hr {
         color: white !important;
 }
 
+.wp-block-button > a:hover{
+    background-color:var(--wp--preset--color--vivid-cyan-blue) !important;
+    color: var(--wp--preset--color--background) !important;
+}
+#evit-fse-to-top {
+    all: unset;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    opacity: 0;
+    transition: .3s;
+    
+}
+
 
 
 

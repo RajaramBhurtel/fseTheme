@@ -13,6 +13,11 @@ if ( ! function_exists( 'evit_fse_theme_support' ) ) :
         // Add support for block styles.
         add_theme_support( 'wp-block-styles' );
 
+		// Enqueue editor styles.
+        add_theme_support( 'editor-styles' );
+
+        add_theme_support( 'block-nav-menus' );
+
         // Enqueue editor styles.
         add_editor_style( 'style.css' );
 
@@ -27,8 +32,15 @@ add_action( 'after_setup_theme', 'evit_fse_theme_support' );
  * Enqueue scripts and styles.
  */
 function fsetheme_scripts() {
+	$min  = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
+
+	// Register theme stylesheet.
+  	$theme_version = wp_get_theme()->get( 'Version' );
+
 	// Enqueue theme stylesheet.
 	wp_enqueue_style( 'fsetheme-style', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
+
+	wp_enqueue_script( 'evit-fse-main-js', get_template_directory_uri() . '/assets/js/main.js', array( 'jquery' ), '1.0.0', true );
 }
 
 add_action( 'wp_enqueue_scripts', 'fsetheme_scripts' );
