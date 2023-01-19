@@ -136,10 +136,13 @@ hr {
     cursor: pointer;
     opacity: 0;
     transition: .3s;
-    
+}
+.mini-cart{
+    display: flex;
+    justify-content: center;
 }
 
-
-
-
-
+.evit-latest-post{
+    box-shadow: 0 5px 30px 0 rgb(0 0 0 / 8%);
+    padding: 50px;
+}
