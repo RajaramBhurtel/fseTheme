@@ -40,7 +40,7 @@ function fsetheme_scripts() {
 	// Enqueue theme stylesheet.
 	wp_enqueue_style( 'fsetheme-style', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
 
-	wp_enqueue_script( 'evit-fse-main-js', get_template_directory_uri() . '/assets/js/main.js', array( 'jquery' ), '1.0.0', true );
+	wp_enqueue_script( 'evit-fse-main-js', get_template_directory_uri() . '/assets/js/main.js', array( ), '1.0.0', true );
 }
 
 add_action( 'wp_enqueue_scripts', 'fsetheme_scripts' );
@@ -88,3 +88,4 @@ endif;
  * Load core file.
  */
 require_once get_template_directory() . '/inc/pattern-category.php';
+require_once get_template_directory() . '/inc/tgm-plugin/tgmpa-hook.php';

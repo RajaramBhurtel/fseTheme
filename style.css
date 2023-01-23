@@ -33,7 +33,11 @@ Text Domain: evit-fse
 a{
     text-decoration: none;
 }
-
+  hr{
+      height: 1px;
+      background-color: #ccc;
+      border: none;
+  }
 /* .evit-sidebar {
     width: 300px;
     height: 600px;
@@ -119,15 +123,6 @@ hr {
 
 }
 
-.return-to-shop a{
-        background-color: #cf2e2e !important;
-        color: white !important;
-}
-
-.wp-block-button > a:hover{
-    background-color:var(--wp--preset--color--vivid-cyan-blue) !important;
-    color: var(--wp--preset--color--background) !important;
-}
 #evit-fse-to-top {
     all: unset;
     position: fixed;
@@ -145,4 +140,50 @@ hr {
 .evit-latest-post{
     box-shadow: 0 5px 30px 0 rgb(0 0 0 / 8%);
     padding: 50px;
+}
+#sidebar, #about-us{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    background-color:white;
+    /* background-color: rgba(255, 255, 255, 0.9); */
+    overflow-x: hidden;
+    transition: 0.3s;
+    /* color: #ffffff; */
+}
+
+.search-sidebar:hover, .about-sidebar:hover{
+    opacity: .6;
+}
+
+#sidebar > form{
+    position: relative;
+    top:30%;
+}
+#evit-social{
+    position: relative;
+    top: 10%;
+}
+#close > a:hover, #close-about > a:hover{
+    background-color: transparent !important;
+}
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    /* Full width (cover the whole page) */
+    height: 100%;
+    /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(95, 95, 95, 0.35);
+    /* Black background with opacity */
+    z-index: 2;
+    /* Specify a stack order in case you're using a different order for other elements */
 }

@@ -16,17 +16,17 @@
 <!-- /wp:spacer -->
 
 <!-- wp:group {"style":{"border":{"width":"0px","style":"none"},"spacing":{"padding":{"top":"var:preset|spacing|60"}}},"layout":{"type":"constrained"},"fontSize":"medium"} -->
-<div class="wp-block-group has-medium-font-size" style="border-style:none;border-width:0px;padding-top:var(--wp--preset--spacing--60)"><!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"700"}},"textColor":"primary","fontSize":"tiny"} -->
-<p class="has-text-align-center has-primary-color has-text-color has-tiny-font-size" style="font-style:normal;font-weight:700;text-transform:uppercase">Finance &amp; Consulting Company                                 </p>
-<!-- /wp:paragraph -->
+<div class="wp-block-group has-medium-font-size" style="border-style:none;border-width:0px;padding-top:var(--wp--preset--spacing--60)"><!-- wp:heading {"textAlign":"center","level":5,"align":"full","style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"textColor":"background","fontSize":"normal"} -->
+<h5 class="alignfull has-text-align-center has-background-color has-text-color has-normal-font-size" style="font-style:normal;font-weight:700">Finance &amp; Consulting Company</h5>
+<!-- /wp:heading -->
 
-<!-- wp:heading {"textAlign":"center","level":1,"align":"full","style":{"typography":{"fontStyle":"normal","fontWeight":"700","lineHeight":"0.9","fontSize":"90px"}},"textColor":"white"} -->
-<h1 class="alignfull has-text-align-center has-white-color has-text-color" style="font-size:90px;font-style:normal;font-weight:700;line-height:0.9">We craft unique<br>business ideas</h1>
+<!-- wp:heading {"textAlign":"center","level":1,"align":"full","textColor":"white"} -->
+<h1 class="alignfull has-text-align-center has-white-color has-text-color">We craft unique<br>business ideas</h1>
 <!-- /wp:heading -->
 
 <!-- wp:buttons {"align":"wide","layout":{"type":"flex","justifyContent":"center"}} -->
-<div class="wp-block-buttons alignwide"><!-- wp:button {"backgroundColor":"primary","textColor":"white","style":{"border":{"radius":"0px"},"typography":{"fontStyle":"normal","fontWeight":"700","letterSpacing":"1px","textDecoration":"none"},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|70","right":"var:preset|spacing|70"}}},"className":"is-style-fill","fontSize":"small"} -->
-<div class="wp-block-button has-custom-font-size is-style-fill has-small-font-size" style="font-style:normal;font-weight:700;letter-spacing:1px;text-decoration:none"><a class="wp-block-button__link has-white-color has-primary-background-color has-text-color has-background wp-element-button" href="http://localhost/wordpresst/about/" style="border-radius:0px;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--70)">About Us</a></div>
+<div class="wp-block-buttons alignwide"><!-- wp:button {"style":{"border":{"radius":"0px"},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|70","right":"var:preset|spacing|70"}}},"className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="http://localhost/wordpresst/about/" style="border-radius:0px;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--70)">About Us</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

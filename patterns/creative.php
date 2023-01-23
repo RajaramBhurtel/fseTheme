@@ -25,20 +25,20 @@
 
 <!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"padding":{"right":"0","bottom":"0","left":"0","top":"0"},"blockGap":"0"}}} -->
 <div class="wp-block-column is-vertically-aligned-center" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"left"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontSize":"12px"}},"textColor":"primary","fontFamily":"Kumbh Sans"} -->
-<p class="has-primary-color has-text-color has-kumbh-sans-font-family" style="font-size:12px"><strong>CREATIVE APPROACH</strong></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"style":{"typography":{"fontSize":"50px","fontStyle":"normal","fontWeight":"700","lineHeight":"1"}}} -->
-<h2 style="font-size:50px;font-style:normal;font-weight:700;line-height:1">Creative vision and digital experience</h2>
+<div class="wp-block-group"><!-- wp:heading {"level":6,"textColor":"primary"} -->
+<h6 class="has-primary-color has-text-color">CREATIVE APPROACH</h6>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}},"typography":{"lineHeight":"1.6"}},"textColor":"body-text","fontSize":"normal"} -->
-<p class="has-body-text-color has-text-color has-normal-font-size" style="margin-top:var(--wp--preset--spacing--30);line-height:1.6">For those who love videos, animation and motion graphics, we have come up with a new cool project!</p>
+<!-- wp:heading -->
+<h2>Creative vision and digital experience</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
+<p style="margin-top:var(--wp--preset--spacing--30)">For those who love videos, animation and motion graphics, we have come up with a new cool project!</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:list {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"var:preset|spacing|40"},"margin":{"top":"var:preset|spacing|30","right":"0","bottom":"0","left":"0"}},"typography":{"lineHeight":"1.6"}},"textColor":"body-text","fontSize":"normal"} -->
-<ul class="has-body-text-color has-text-color has-normal-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:var(--wp--preset--spacing--40);line-height:1.6"><!-- wp:list-item -->
+<!-- wp:list {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"var:preset|spacing|40"},"margin":{"top":"var:preset|spacing|30","right":"0","bottom":"0","left":"0"}}}} -->
+<ul style="margin-top:var(--wp--preset--spacing--30);margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:var(--wp--preset--spacing--40)"><!-- wp:list-item -->
 <li>Amazing photo &amp; video galleries</li>
 <!-- /wp:list-item -->
 
@@ -52,8 +52,8 @@
 <!-- /wp:list -->
 
 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
-<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button {"backgroundColor":"primary","textColor":"background","style":{"border":{"radius":"0px"},"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|70","right":"var:preset|spacing|70"}}},"className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill" style="font-style:normal;font-weight:600"><a class="wp-block-button__link has-background-color has-primary-background-color has-text-color has-background wp-element-button" href="http://localhost/wordpresst/services/" style="border-radius:0px;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--70)">Services</a></div>
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button {"className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="http://localhost/wordpresst/services/">Services</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
