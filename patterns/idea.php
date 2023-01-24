@@ -66,8 +66,8 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"},"style":{"spacing":{"blockGap":"0"}}} -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"primary","textColor":"background","width":100,"style":{"border":{"radius":"0px"},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|70","right":"var:preset|spacing|70"}}},"className":"is-style-fill"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link has-background-color has-primary-background-color has-text-color has-background wp-element-button" href="#" style="border-radius:0px;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--70)">Read More </a></div>
+<div class="wp-block-buttons"><!-- wp:button {"width":100,"style":{"border":{"radius":"0px"}},"className":"is-style-fill"} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link wp-element-button" href="#" style="border-radius:0px">Read More </a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

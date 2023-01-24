@@ -12,7 +12,7 @@
 <div class="wp-block-cover is-light has-custom-content-position is-position-bottom-center" style="min-height:500px"><span aria-hidden="true" class="wp-block-cover__background has-dark-blue-background-color has-background-dim-30 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-502" alt="" src="<?php echo esc_url( get_template_directory_uri() );?>/assets/images/gallary1.jpg" style="object-position:54% 55%" data-object-fit="cover" data-object-position="54% 55%"/><div class="wp-block-cover__inner-container"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"textColor":"white"} -->
-<h3 class="has-white-color has-text-color has-link-color"><a href="http://High Quality Products">High Quality Products</a></h3>
+<h3 class="has-white-color has-text-color has-link-color"><a href="#">High Quality Products</a></h3>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
@@ -30,7 +30,7 @@
 <div class="wp-block-cover has-custom-content-position is-position-bottom-center" style="min-height:500px"><span aria-hidden="true" class="wp-block-cover__background has-dark-blue-background-color has-background-dim-30 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-501" alt="" src="<?php echo esc_url( get_template_directory_uri() );?>/assets/images/gallary3.jpg" style="object-position:55% 50%" data-object-fit="cover" data-object-position="55% 50%"/><div class="wp-block-cover__inner-container"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"textColor":"background"} -->
-<h3 class="has-background-color has-text-color has-link-color"><a href="http://High Quality Products">Brand Development Strategies</a></h3>
+<h3 class="has-background-color has-text-color has-link-color"><a href="#">Brand Strategies</a></h3>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
@@ -48,7 +48,7 @@
 <div class="wp-block-cover has-custom-content-position is-position-bottom-center" style="min-height:500px"><span aria-hidden="true" class="wp-block-cover__background has-black-background-color has-background-dim-30 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-500" alt="" src="<?php echo esc_url( get_template_directory_uri() );?>/assets/images/gallary2.jpg" style="object-position:39% 51%" data-object-fit="cover" data-object-position="39% 51%"/><div class="wp-block-cover__inner-container"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"textColor":"background"} -->
-<h3 class="has-background-color has-text-color has-link-color"><a href="http://Your Business Consulting">Your Business Consulting</a></h3>
+<h3 class="has-background-color has-text-color has-link-color"><a href="#">Your Business Consulting</a></h3>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
